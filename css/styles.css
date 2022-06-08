@@ -15,11 +15,12 @@
 /* CSS for index.html */
 
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #757575;
 }
 ul {
   list-style: none;
+  text-decoration: none;
 }
 
 /* Navigation main */
