@@ -82,6 +82,7 @@ ul {
 }
 /* section button */
 .button {
+  font-family: inherit;
   background-color: var(--button-bg-color);
   color: var(--button-active-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -179,6 +180,7 @@ footer {
 }
 .button-act,
 .button-nonact {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
