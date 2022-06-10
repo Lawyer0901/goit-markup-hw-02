@@ -43,6 +43,8 @@ ul {
 }
 
 .navigation-link {
+  font-family: "Roboto";
+  font-style: normal;
   color: var(--text-head-color);
   text-decoration: none;
   font-weight: 500;
@@ -82,7 +84,7 @@ ul {
 }
 /* section button */
 .button {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   background-color: var(--button-bg-color);
   color: var(--button-active-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
