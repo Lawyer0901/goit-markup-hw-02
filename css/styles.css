@@ -58,10 +58,19 @@ ul {
   color: var(--text-link-color);
 }
 
+.link-active {
+  color: var(--text-link-color);
+}
 /* navigation authorized */
 .auth-link {
   color: inherit;
   text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .auth-link:hover,
 .auth-link:focus {
@@ -168,6 +177,7 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .auth-footer:hover,
 .auth-footer:focus {
